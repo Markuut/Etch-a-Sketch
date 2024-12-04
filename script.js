@@ -1,4 +1,4 @@
-let gridResolution = 64;
+let gridResolution = 32;
 let isMouseDown = false;
 
 document.body.addEventListener("mousedown", () => (isMouseDown = true));
