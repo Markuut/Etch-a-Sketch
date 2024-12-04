@@ -1,4 +1,4 @@
-let gridResolution = 16;
+let gridResolution = 64;
 
 const container = document.querySelector(".container");
 
@@ -13,8 +13,6 @@ function makeGrid(gridResolution) {
         gridCell.classList.add("grid-cell");
         gridCell.style.width = `${cellSize}px`;
         gridCell.style.height = `${cellSize}px`;
-        gridCell.style.boxSizing = "border-box";
-        gridCell.style.border = "1px solid #ccc";
 
         container.append(gridCell);
     }

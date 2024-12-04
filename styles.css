@@ -15,6 +15,12 @@ body {
     height: 800px;
 }
 
+.grid-cell {
+    box-sizing: border-box;
+    border: 0.5px solid rgba(204, 204, 204, 0.5);
+    background-color: #f0f0f0;
+}
+
 .button-container {
     display: flex;
     flex-direction: column;
