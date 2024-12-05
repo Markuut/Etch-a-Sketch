@@ -28,8 +28,6 @@ function darkenCell(cell) {
         let opacity = parseFloat(match[1]);
         opacity = Math.min(opacity + 0.2, 1);
         cell.style.backgroundColor = `rgba(0, 0, 0, ${opacity})`;
-    } else {
-        cell.style.backgroundColor = "rgba(0, 0, 0, 0.2)";
     }
 }
 
